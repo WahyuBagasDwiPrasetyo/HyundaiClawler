@@ -1,0 +1,29 @@
+section[data-testid="stSidebar"] {
+    width: 505px !important;  /* Set the width to your desired value */
+}
+
+[data-testid=stSidebar] [data-testid=stImage]{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.stButton button {
+    border-radius: 14px;
+    background: #1C2D5B;
+    color: white;
+}
+
+[data-testid=stSidebar]{
+    background-color: #1C2D5B
+}
+
+
+[data-testid=stImageContainer] img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[data-testid="stSidebarNavItems"]{
+    display: none;
+}

@@ -1,0 +1,39 @@
+[data-testid=stSidebar]{
+    background-color: #1C2D5B
+}
+
+[data-testid=stSidebarUserContent] [data-testid=stMarkdownContainer] h1{
+    color: white;
+}
+[data-testid="stSidebarNavItems"] span{
+    color: white;
+}
+
+[data-testid="stSidebarNavItems"] li:first-child{
+    display: none;
+}
+
+.st-key-submit button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 682px;
+    background-color: #1C2D5B;
+    color: white;
+}
+
+.st-key-submit button:hover{
+    background-color: #3f507e;
+    color: white;
+    border: 1px solid #1C2D5B;
+}
+
+.stVerticalBlock{
+    /* background-color: #3f507e; */
+    border-radius: 0.375rem;
+}
+
+[data-testid="stColumn"]{
+    /* add drop shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
